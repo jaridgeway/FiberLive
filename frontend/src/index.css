@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 100px 150px 625px 150px 100px;
+  grid-template-rows: auto auto auto;
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 150px;
+  grid-template-rows: repeat(12,auto);
+  grid-gap: 20px;
+  justify-items: right;
+  align-items: right;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: 150px;
+  grid-template-rows: repeat(12,auto);
+  grid-gap: 20px;
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(12,auto);
+  grid-template-rows: 80px;
+  grid-gap: 20px;
+  justify-items:end;
+  align-items: end;
+
+}
+
+.Splicer {
+  align-self: center;
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+}
+
+
+
+.A {
+  color: blue;
+}
+.B {
+  color: blue;
+}
+.C {
+  color: red;
+}
+.D {
+  color: red;
+}
+.E {
+  color: blue;
+}
+.F {
+  color: blue;
+}
+.G {
+  color: red;
+}
+.H {
+  color: red;
+}
+.I {
+  color: blue;
+}
+.J {
+  color: blue;
+}
+.K {
+  color: red;
+}
+.L {
+  color: red;
+}
+
+
+.AR {
+  color: blue;
+}
+.BR {
+  color: blue;
+}
+.CR {
+  color: red;
+}
+.DR {
+  color: red;
+}
+.ER {
+  color: blue;
+  background-color: blue;
+}
+.FR {
+  color: blue;
+}
+.GR {
+  color: red;
+}
+.HR {
+  color: red;
+}
+.IR {
+  color: blue;
+  background-color: blue;
+}
+.JR {
+  color: blue;
+}
+.KR {
+  color: red;
+}
+.LR {
+  color: red;
+}
+
+
+.AB {
+  color: blue;
+}
+.BB {
+  color: blue;
+}
+.CB {
+  color: red;
+}
+.DB {
+  color: red;
+}
+.EB {
+  color: blue;
+}
+.FB {
+  color: blue;
+}
+.GB {
+  color: red;
+}
+.HB {
+  color: red;
+}
+.IB {
+  color: blue;
+}
+.JB {
+  color: blue;
+}
+.KB {
+  color: red;
+}
+.LB {
+  color: red;
+}
+
+
+.BL{
+  background-color: blue !important;
+}
+.OR{
+  background-color: orange !important;
+}
+.GRE{
+  background-color: green !important;
+}
+.BRO{
+  background-color: brown !important;
+}
+.SL{
+  background-color: #C0C2C9 !important;
+}
+.WH{
+  background-color: white !important;
+}
+.RD{
+  background-color: red !important;
+}
+.BK{
+  background-color: black !important;
+}
+.YL{
+  background-color: yellow !important;
+}
+.VT{
+  background-color: violet !important;
+}
+.RS{
+  background-color: #E4A598 !important;
+}
+.AQ{
+  background-color: aqua !important;
+}
